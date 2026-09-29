@@ -1,66 +1,116 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Impacto y Dirección Estratégica</title>
-    <link rel="stylesheet" href="strategic-direction.css">
-    <link rel="stylesheet" href="../globals.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Historia y evolución de la Inteligencia Artificial</title>
+  <link rel="stylesheet" href="globals.css" />
 </head>
+
 <body>
+  <header>
+    <h1>Los 5 Pilares del Ciclo de Vida del Dato</h1>
+    <nav>
+      <ul>
+        <li><a href="./examples/examples.html">Ejemplo</a></li>
+        <li><a href="./data-origin/">Origen y captura</a></li>
+        <li><a href="./data-cleaning/">Limpieza y transformación</a></li>
+        <li><a href="./data-analysis/">Análisis y modelado</a></li>
+        <li><a href="./deployment/">Despliegue</a></li>
+        <li><a href="./strategic-direction/">Dirección estratégica</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <section class="roi-section">
-        <h1>ROI e impacto en negocio</h1>
-
-        <p>
-            Los datos permiten evaluar si una decisión genera valor real para la organización.
-        </p>
-
-        <div class="roi-cards">
-
-            <article>
-                <h2>Inversión</h2>
-                <p>
-                    Recursos destinados a una acción, proyecto o estrategia.
-                </p>
-            </article>
-
-            <article>
-                <h2>Resultado</h2>
-                <p>
-                    Beneficio obtenido: aumento de ingresos, reducción de costes o ahorro de tiempo.
-                </p>
-            </article>
-
-            <article>
-                <h2>Medición</h2>
-                <p>
-                    Comparar la inversión con los resultados mediante indicadores como ROI, ingresos,
-                    costes y ahorro.
-                </p>
-            </article>
-
-        </div>
-
-        <div class="roi-example">
-            <h2>¿Cómo se calcula?</h2>
-
-            <p class="formula">
-                ROI = (Beneficio obtenido − Inversión) / Inversión × 100
-            </p>
-
-            <p>
-                <strong>Ejemplo:</strong> una empresa invierte 1.000 € en una campaña y obtiene
-                1.500 € de beneficio adicional.
-            </p>
-
-            <p>
-                ROI = (1.500 − 1.000) / 1.000 × 100 = <strong>50 %</strong>
-            </p>
-        </div>
-
+  <main>
+    
+    <section id="origenes" class="content-section">
+      <h2 class="accordion-header">Ejemplo</h2>
+      <div class="accordion-content">
+        <iframe src="examples/examples.html" title="Ejemplo Sección"
+          width="100%" height="900" style="border:none; overflow:auto;">
+        </iframe>
+      </div>
     </section>
 
-</body>
+    <section id="origin" class="content-section">
+        <h2 class="accordion-header">Origen y Captura de Datos</h2>
+        <div class="accordion-content"></div>
+    </section>
+
+    <section id="cleaning" class="content-section">
+        <h2 class="accordion-header">Limpieza y Transformación</h2>
+        <div class="accordion-content"></div>
+    </section>
+
+    <section id="analysis" class="content-section">
+        <h2 class="accordion-header">Análisis y Modelado</h2>
+        <div class="accordion-content"></div>
+    </section>
+
+    <section id="deploy" class="content-section">
+        <h2 class="accordion-header">Despliegue y Monitorización</h2>
+        <div class="accordion-content"></div>
+    </section>
+
+    <section id="impact" class="content-section">
+        <h2 class="accordion-header">Impacto y Dirección Estratégica</h2>
+        <div class="accordion-content"></div>
+    </section>
+<section class="roi-section">
+    <h1>ROI e impacto en negocio</h1>
+
+    <p>
+        Los datos permiten evaluar si una decisión genera valor real para la organización.
+    </p>
+
+    <div class="roi-cards">
+
+        <article>
+            <h2>Inversión</h2>
+            <p>
+                Recursos destinados a una acción, proyecto o estrategia.
+            </p>
+        </article>
+
+        <article>
+            <h2>Resultado</h2>
+            <p>
+                Beneficio obtenido: aumento de ingresos, reducción de costes o ahorro de tiempo.
+            </p>
+        </article>
+
+        <article>
+            <h2>Medición</h2>
+            <p>
+                Comparar la inversión con los resultados mediante indicadores como ROI, ingresos, costes y ahorro.
+            </p>
+        </article>
+
+    </div>
+
+    <div class="formula">
+        <h2>¿Cómo se calcula?</h2>
+
+        <p>
+            <strong>ROI = (Beneficio obtenido − Inversión) / Inversión × 100</strong>
+        </p>
+
+        <p>
+            <strong>Ejemplo:</strong> una empresa invierte 1.000 € en una campaña y obtiene 1.500 € de beneficio adicional.
+        </p>
+
+        <p>
+            ROI = (1.500 − 1.000) / 1.000 × 100 = <strong>50 %</strong>
+        </p>
+    </div>
+</section>
+  </main>
+
+  <footer>
+    <p>Bootcamp Data Analyst</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
